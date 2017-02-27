@@ -1,0 +1,2209 @@
+[
+    {
+        "key": "group_5669723e3e30b",
+        "title": "Company General Information",
+        "fields": [
+            {
+                "key": "field_567265ee44bdb",
+                "label": "Logo",
+                "name": "_copy",
+                "type": "tab",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "placement": "top",
+                "endpoint": 0
+            },
+            {
+                "key": "field_567265fe44bdc",
+                "label": "Logo",
+                "name": "company_logo",
+                "type": "image_crop",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "crop_type": "hard",
+                "target_size": "medium",
+                "width": "",
+                "height": "",
+                "preview_size": "medium",
+                "force_crop": "yes",
+                "save_in_media_library": "yes",
+                "retina_mode": "no",
+                "save_format": "url",
+                "library": "all"
+            },
+            {
+                "key": "field_5669733ee6213",
+                "label": "Slogan",
+                "name": "slogan",
+                "type": "tab",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "placement": "top",
+                "endpoint": 0
+            },
+            {
+                "key": "field_56697351e6214",
+                "label": "Company Slogan",
+                "name": "company_slogan",
+                "type": "textarea",
+                "instructions": "Write company slogan here. Max 125 characters.",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "maxlength": 125,
+                "rows": 4,
+                "new_lines": "",
+                "readonly": 0,
+                "disabled": 0
+            },
+            {
+                "key": "field_5669744a2f2f1",
+                "label": "About Us",
+                "name": "_copy",
+                "type": "tab",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "placement": "top",
+                "endpoint": 0
+            },
+            {
+                "key": "field_5669747e2f2f4",
+                "label": "About Us",
+                "name": "company_about_us",
+                "type": "wysiwyg",
+                "instructions": "Write a description about your company here.",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "tabs": "all",
+                "toolbar": "full",
+                "media_upload": 0
+            },
+            {
+                "key": "field_5669745b2f2f2",
+                "label": "Our Business",
+                "name": "_copy_copy",
+                "type": "tab",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "placement": "top",
+                "endpoint": 0
+            },
+            {
+                "key": "field_566974b02f2f5",
+                "label": "Our Business",
+                "name": "company_our_business",
+                "type": "wysiwyg",
+                "instructions": "Write a description about what is your company's main business.",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "tabs": "all",
+                "toolbar": "full",
+                "media_upload": 0
+            },
+            {
+                "key": "field_566974632f2f3",
+                "label": "Mission",
+                "name": "_copy_copy_copy",
+                "type": "tab",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "placement": "top",
+                "endpoint": 0
+            },
+            {
+                "key": "field_566974d02f2f6",
+                "label": "Mission",
+                "name": "company_mission",
+                "type": "wysiwyg",
+                "instructions": "Write a description about what is your company's mission.",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "tabs": "all",
+                "toolbar": "full",
+                "media_upload": 0
+            },
+            {
+                "key": "field_566e6df354ef3",
+                "label": "Team",
+                "name": "_copy",
+                "type": "tab",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "placement": "top",
+                "endpoint": 0
+            },
+            {
+                "key": "field_566e6e0454ef4",
+                "label": "Team",
+                "name": "company_team_member_repeater",
+                "type": "repeater",
+                "instructions": "Add up to 4 team members.",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "collapsed": "",
+                "min": "",
+                "max": 4,
+                "layout": "row",
+                "button_label": "Add Team Member",
+                "sub_fields": [
+                    {
+                        "key": "field_566e6e6b54ef5",
+                        "label": "Name",
+                        "name": "company_team_member_name",
+                        "type": "text",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "default_value": "",
+                        "placeholder": "first lastname",
+                        "prepend": "",
+                        "append": "",
+                        "maxlength": "",
+                        "readonly": 0,
+                        "disabled": 0
+                    },
+                    {
+                        "key": "field_566e6e8854ef6",
+                        "label": "Job Title",
+                        "name": "company_team_member_job_title",
+                        "type": "text",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "default_value": "",
+                        "placeholder": "job title",
+                        "prepend": "",
+                        "append": "",
+                        "maxlength": "",
+                        "readonly": 0,
+                        "disabled": 0
+                    },
+                    {
+                        "key": "field_566e6eab54ef7",
+                        "label": "Phone Number",
+                        "name": "company_team_member_phone_number",
+                        "type": "text",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "default_value": "",
+                        "placeholder": "e.g. +358 50 1234567",
+                        "prepend": "",
+                        "append": "",
+                        "maxlength": "",
+                        "readonly": 0,
+                        "disabled": 0
+                    },
+                    {
+                        "key": "field_566e6ebb54ef8",
+                        "label": "Email",
+                        "name": "company_team_member_email",
+                        "type": "text",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "default_value": "",
+                        "placeholder": "e.g. teammember@company.com",
+                        "prepend": "",
+                        "append": "",
+                        "maxlength": "",
+                        "readonly": 0,
+                        "disabled": 0
+                    },
+                    {
+                        "key": "field_566e6ed354ef9",
+                        "label": "Picture",
+                        "name": "company_team_member_picture",
+                        "type": "image_crop",
+                        "instructions": "Add picture.",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "crop_type": "hard",
+                        "target_size": "medium",
+                        "width": "",
+                        "height": "",
+                        "preview_size": "medium",
+                        "force_crop": "yes",
+                        "save_in_media_library": "yes",
+                        "retina_mode": "no",
+                        "save_format": "url",
+                        "library": "all"
+                    }
+                ]
+            },
+            {
+                "key": "field_56697267e6211",
+                "label": "Contact Info",
+                "name": "contact_info",
+                "type": "tab",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "placement": "top",
+                "endpoint": 0
+            },
+            {
+                "key": "field_566972b7e6212",
+                "label": "Contact Email",
+                "name": "company_contact_email",
+                "type": "text",
+                "instructions": "Enter contact email address here. The emails sent from the contact form will be directed to this email.",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "e.g. info@company.com",
+                "prepend": "",
+                "append": "",
+                "maxlength": "",
+                "readonly": 0,
+                "disabled": 0
+            },
+            {
+                "key": "field_566fcf1e7377a",
+                "label": "Street Address",
+                "name": "company_contact_street_address",
+                "type": "text",
+                "instructions": "Enter street address here.",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "e.g. Joukahaisenkatu 5 b",
+                "prepend": "",
+                "append": "",
+                "maxlength": "",
+                "readonly": 0,
+                "disabled": 0
+            },
+            {
+                "key": "field_566fd2677377b",
+                "label": "City",
+                "name": "company_contact_city",
+                "type": "text",
+                "instructions": "Enter city here.",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "e.g. Turku",
+                "prepend": "",
+                "append": "",
+                "maxlength": "",
+                "readonly": 0,
+                "disabled": 0
+            },
+            {
+                "key": "field_566fd2887377c",
+                "label": "Postal Code",
+                "name": "company_contact_postal_code",
+                "type": "text",
+                "instructions": "Enter postal code here.",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "e.g. 20100",
+                "prepend": "",
+                "append": "",
+                "maxlength": "",
+                "readonly": 0,
+                "disabled": 0
+            },
+            {
+                "key": "field_566fd2ac7377d",
+                "label": "Country",
+                "name": "company_contact_country",
+                "type": "text",
+                "instructions": "Enter country",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "e.g. Finland",
+                "prepend": "",
+                "append": "",
+                "maxlength": "",
+                "readonly": 0,
+                "disabled": 0
+            },
+            {
+                "key": "field_566fd4a30f03e",
+                "label": "Phone Number",
+                "name": "company_contact_phone_number",
+                "type": "text",
+                "instructions": "Enter phone number here.",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "e.g. +358 50 1234567",
+                "prepend": "",
+                "append": "",
+                "maxlength": "",
+                "readonly": 0,
+                "disabled": 0
+            },
+            {
+                "key": "field_56b1dcb029ff0",
+                "label": "Website Address",
+                "name": "company_contact_url",
+                "type": "text",
+                "instructions": "Enter website address here.",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "e.g. www.domain.com",
+                "prepend": "",
+                "append": "",
+                "maxlength": "",
+                "readonly": 0,
+                "disabled": 0
+            },
+            {
+                "key": "field_566e6c82a4c8e",
+                "label": "3D Elements",
+                "name": "_copy",
+                "type": "tab",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "placement": "top",
+                "endpoint": 0
+            },
+            {
+                "key": "field_566e6ce5bf98d",
+                "label": "Sketchfab Elements",
+                "name": "company_sketchfab_repeater",
+                "type": "repeater",
+                "instructions": "Add up to 10 Sketchfab elements here.",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "collapsed": "",
+                "min": "",
+                "max": 10,
+                "layout": "row",
+                "button_label": "Add Sketchfab Element",
+                "sub_fields": [
+                    {
+                        "key": "field_566e6d25bf98e",
+                        "label": "Sketchfab URL:",
+                        "name": "company_sketchfab_url",
+                        "type": "text",
+                        "instructions": "Copy the URL from Sketchfab here.",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "default_value": "",
+                        "placeholder": "e.g. https:\/\/sketchfab.com\/models\/8b6f5dfb10f049b5ab9bb0b097e6df61",
+                        "prepend": "",
+                        "append": "",
+                        "maxlength": "",
+                        "readonly": 0,
+                        "disabled": 0
+                    },
+                    {
+                        "key": "field_566e6d49bf98f",
+                        "label": "Annotation Cycle:",
+                        "name": "company_sketchfab_annotation_cycle",
+                        "type": "number",
+                        "instructions": "Setting to any number will start the Autopilot cycle with that duration, in seconds, at each annotation. Give a value between 0 and 20.",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": "company-sketchfab-annotation-cycle"
+                        },
+                        "default_value": 0,
+                        "placeholder": "",
+                        "prepend": "",
+                        "append": "",
+                        "min": 0,
+                        "max": 20,
+                        "step": 1,
+                        "readonly": 0,
+                        "disabled": 0
+                    },
+                    {
+                        "key": "field_566e6d6ebf990",
+                        "label": "Auto spin:",
+                        "name": "company_sketchfab_auto_spin",
+                        "type": "number",
+                        "instructions": "Setting to any other number will cause the model to automatically spin around the z-axis after loading. The greater the number, the faster the spin. Give a value between 0 and 1",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": "company-sketchfab-autospin"
+                        },
+                        "default_value": 0,
+                        "placeholder": "",
+                        "prepend": "",
+                        "append": "",
+                        "min": 0,
+                        "max": 1,
+                        "step": "0.1",
+                        "readonly": 0,
+                        "disabled": 0
+                    }
+                ]
+            },
+            {
+                "key": "field_5706358a40752",
+                "label": "360 Photos",
+                "name": "_copy",
+                "type": "tab",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "placement": "top",
+                "endpoint": 0
+            },
+            {
+                "key": "field_5706359640753",
+                "label": "360 Photos",
+                "name": "company_threesixty_photos_repeater",
+                "type": "repeater",
+                "instructions": "Add up to ten 360 photos",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "collapsed": "",
+                "min": "",
+                "max": 10,
+                "layout": "row",
+                "button_label": "Add 360 Photo",
+                "sub_fields": [
+                    {
+                        "key": "field_5706359640754",
+                        "label": "360 Photo URL:",
+                        "name": "company_threesixty_photo_url",
+                        "type": "text",
+                        "instructions": "Copy the URL from Theta360 here.",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "default_value": "",
+                        "placeholder": "e.g. https:\/\/theta360.com\/s\/jOKIHhvxGpBYaanca03Brz1iS",
+                        "prepend": "",
+                        "append": "",
+                        "maxlength": "",
+                        "readonly": 0,
+                        "disabled": 0
+                    }
+                ]
+            },
+            {
+                "key": "field_566e6c96a4c8f",
+                "label": "Youtube Videos",
+                "name": "_copy",
+                "type": "tab",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "placement": "top",
+                "endpoint": 0
+            },
+            {
+                "key": "field_566e6f6d2b18d",
+                "label": "Youtube Videos",
+                "name": "company_youtube_repeater",
+                "type": "repeater",
+                "instructions": "Add up to 10 Youtube videos.",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "collapsed": "",
+                "min": "",
+                "max": 10,
+                "layout": "row",
+                "button_label": "Add Youtube Video",
+                "sub_fields": [
+                    {
+                        "key": "field_566e6f9a2b18e",
+                        "label": "Youtube Video URL",
+                        "name": "company_youtube_url",
+                        "type": "text",
+                        "instructions": "Enter Youtube video URL",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "default_value": "",
+                        "placeholder": "e.g. https:\/\/www.youtube.com\/watch?v=5vWLx8kwbwE",
+                        "prepend": "",
+                        "append": "",
+                        "maxlength": "",
+                        "readonly": 0,
+                        "disabled": 0
+                    }
+                ]
+            },
+            {
+                "key": "field_566e6ca3a4c90",
+                "label": "Pictures & PDF",
+                "name": "pictures_&_pdf",
+                "type": "tab",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "placement": "top",
+                "endpoint": 0
+            },
+            {
+                "key": "field_566e79b356e17",
+                "label": "Pictures & PDF",
+                "name": "company_pictures_and_pdf",
+                "type": "gallery",
+                "instructions": "Add pictures or pdf.",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "min": "",
+                "max": "",
+                "preview_size": "thumbnail",
+                "library": "all",
+                "min_width": "",
+                "min_height": "",
+                "min_size": "",
+                "max_width": "",
+                "max_height": "",
+                "max_size": "",
+                "mime_types": "jpg,jpef,png,svg,gif,bmp,pdf"
+            }
+        ],
+        "location": [
+            [
+                {
+                    "param": "post_type",
+                    "operator": "==",
+                    "value": "companies"
+                }
+            ]
+        ],
+        "menu_order": 0,
+        "position": "normal",
+        "style": "default",
+        "label_placement": "top",
+        "instruction_placement": "label",
+        "hide_on_screen": [
+            "permalink",
+            "slug"
+        ],
+        "active": 1,
+        "description": ""
+    },
+    {
+        "key": "group_5677e5f744a07",
+        "title": "Front Page",
+        "fields": [
+            {
+                "key": "field_567a4ec695d4f",
+                "label": "About 3D Expo",
+                "name": "about_3d_expo",
+                "type": "tab",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "placement": "top",
+                "endpoint": 0
+            },
+            {
+                "key": "field_567a4f4f95d52",
+                "label": "About 3D Expo",
+                "name": "front_page_about_us",
+                "type": "wysiwyg",
+                "instructions": "Write about 3D Expo in general",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "tabs": "all",
+                "toolbar": "full",
+                "media_upload": 0
+            },
+            {
+                "key": "field_567a4ed695d50",
+                "label": "3D Expo Mission",
+                "name": "_copy",
+                "type": "tab",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "placement": "top",
+                "endpoint": 0
+            },
+            {
+                "key": "field_567a4f9095d53",
+                "label": "3D Expo Mission",
+                "name": "front_page_mission",
+                "type": "wysiwyg",
+                "instructions": "Description about 3D Expo's mission.",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "tabs": "all",
+                "toolbar": "full",
+                "media_upload": 0
+            },
+            {
+                "key": "field_567a4fbf95d54",
+                "label": "Contact Us",
+                "name": "_copy",
+                "type": "tab",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "placement": "top",
+                "endpoint": 0
+            },
+            {
+                "key": "field_567a50ab95d59",
+                "label": "Person",
+                "name": "front_page_contact_person",
+                "type": "text",
+                "instructions": "Contact person",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "e.g. Kaapo Sepp\u00e4l\u00e4",
+                "prepend": "",
+                "append": "",
+                "maxlength": "",
+                "readonly": 0,
+                "disabled": 0
+            },
+            {
+                "key": "field_567a4fd395d55",
+                "label": "Email",
+                "name": "front_page_contact_email",
+                "type": "email",
+                "instructions": "Emails from contact form are directed to this email",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "e.g. info@3dexpo.com",
+                "prepend": "",
+                "append": ""
+            },
+            {
+                "key": "field_567a501695d56",
+                "label": "Street Address",
+                "name": "front_page_contact_street_address",
+                "type": "text",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "e.g. Joukahaisenkatu 3",
+                "prepend": "",
+                "append": "",
+                "maxlength": "",
+                "readonly": 0,
+                "disabled": 0
+            },
+            {
+                "key": "field_567a504395d57",
+                "label": "Postal Code:",
+                "name": "front_page_contact_postal_code",
+                "type": "text",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "e.g. 20520",
+                "prepend": "",
+                "append": "",
+                "maxlength": "",
+                "readonly": 0,
+                "disabled": 0
+            },
+            {
+                "key": "field_567a58d1a8a96",
+                "label": "City",
+                "name": "front_page_contact_city",
+                "type": "text",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "e.g. Turku",
+                "prepend": "",
+                "append": "",
+                "maxlength": "",
+                "readonly": 0,
+                "disabled": 0
+            },
+            {
+                "key": "field_567a595723825",
+                "label": "Country",
+                "name": "front_page_contact_country",
+                "type": "text",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "e.g. Finland",
+                "prepend": "",
+                "append": "",
+                "maxlength": "",
+                "readonly": 0,
+                "disabled": 0
+            },
+            {
+                "key": "field_567a508a95d58",
+                "label": "Phone Number",
+                "name": "front_page_contact_phone_number",
+                "type": "text",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "e.g. +358 50 1234567",
+                "prepend": "",
+                "append": "",
+                "maxlength": "",
+                "readonly": 0,
+                "disabled": 0
+            }
+        ],
+        "location": [
+            [
+                {
+                    "param": "page_template",
+                    "operator": "==",
+                    "value": "page-templates\/front-page.php"
+                }
+            ]
+        ],
+        "menu_order": 0,
+        "position": "normal",
+        "style": "default",
+        "label_placement": "top",
+        "instruction_placement": "label",
+        "hide_on_screen": [
+            "permalink",
+            "slug"
+        ],
+        "active": 1,
+        "description": ""
+    },
+    {
+        "key": "group_568105f53b8d8",
+        "title": "Group of Companies General Information",
+        "fields": [
+            {
+                "key": "field_568105f53fc37",
+                "label": "Logo",
+                "name": "_copy",
+                "type": "tab",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "placement": "top",
+                "endpoint": 0
+            },
+            {
+                "key": "field_568105f53fcd4",
+                "label": "Logo",
+                "name": "group_of_companies_logo",
+                "type": "image_crop",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "crop_type": "hard",
+                "target_size": "medium",
+                "width": "",
+                "height": "",
+                "preview_size": "medium",
+                "force_crop": "yes",
+                "save_in_media_library": "yes",
+                "retina_mode": "no",
+                "save_format": "url",
+                "library": "all"
+            },
+            {
+                "key": "field_568105f53fd70",
+                "label": "Slogan",
+                "name": "slogan",
+                "type": "tab",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "placement": "top",
+                "endpoint": 0
+            },
+            {
+                "key": "field_568105f53fe07",
+                "label": "Slogan",
+                "name": "group_of_companies_slogan",
+                "type": "textarea",
+                "instructions": "Write slogan here. Max 125 characters.",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "maxlength": 125,
+                "rows": 4,
+                "new_lines": "",
+                "readonly": 0,
+                "disabled": 0
+            },
+            {
+                "key": "field_568105f53fe9e",
+                "label": "About Us",
+                "name": "_copy",
+                "type": "tab",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "placement": "top",
+                "endpoint": 0
+            },
+            {
+                "key": "field_568105f53ff34",
+                "label": "About Us",
+                "name": "group_of_companies_about_us",
+                "type": "wysiwyg",
+                "instructions": "Write a description about the group of companies here.",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "tabs": "all",
+                "toolbar": "full",
+                "media_upload": 0
+            },
+            {
+                "key": "field_568105f53ffca",
+                "label": "Our Business",
+                "name": "_copy_copy",
+                "type": "tab",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "placement": "top",
+                "endpoint": 0
+            },
+            {
+                "key": "field_568105f540074",
+                "label": "Our Business",
+                "name": "group_of_companies_our_business",
+                "type": "wysiwyg",
+                "instructions": "Write a description about what is your company's main business.",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "tabs": "all",
+                "toolbar": "full",
+                "media_upload": 0
+            },
+            {
+                "key": "field_568105f54010a",
+                "label": "Mission",
+                "name": "_copy_copy_copy",
+                "type": "tab",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "placement": "top",
+                "endpoint": 0
+            },
+            {
+                "key": "field_568105f5401a1",
+                "label": "Mission",
+                "name": "group_of_companies_mission",
+                "type": "wysiwyg",
+                "instructions": "Write a description about what is your company's mission.",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "tabs": "all",
+                "toolbar": "full",
+                "media_upload": 0
+            },
+            {
+                "key": "field_568105f540237",
+                "label": "Team",
+                "name": "_copy",
+                "type": "tab",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "placement": "top",
+                "endpoint": 0
+            },
+            {
+                "key": "field_568105f5402cf",
+                "label": "Team",
+                "name": "group_of_companies_team_member_repeater",
+                "type": "repeater",
+                "instructions": "Add up to 4 team members.",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "collapsed": "",
+                "min": "",
+                "max": 4,
+                "layout": "row",
+                "button_label": "Add Team Member",
+                "sub_fields": [
+                    {
+                        "key": "field_568105f54a399",
+                        "label": "Name",
+                        "name": "group_of_companies_team_member_name",
+                        "type": "text",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "default_value": "",
+                        "placeholder": "first lastname",
+                        "prepend": "",
+                        "append": "",
+                        "maxlength": "",
+                        "readonly": 0,
+                        "disabled": 0
+                    },
+                    {
+                        "key": "field_568105f54a434",
+                        "label": "Job Title",
+                        "name": "group_of_companies_team_member_job_title",
+                        "type": "text",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "default_value": "",
+                        "placeholder": "job title",
+                        "prepend": "",
+                        "append": "",
+                        "maxlength": "",
+                        "readonly": 0,
+                        "disabled": 0
+                    },
+                    {
+                        "key": "field_568105f54a4cb",
+                        "label": "Phone Number",
+                        "name": "group_of_companies_team_member_phone_number",
+                        "type": "text",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "default_value": "",
+                        "placeholder": "e.g. +358 50 1234567",
+                        "prepend": "",
+                        "append": "",
+                        "maxlength": "",
+                        "readonly": 0,
+                        "disabled": 0
+                    },
+                    {
+                        "key": "field_568105f54a561",
+                        "label": "Email",
+                        "name": "group_of_companies_team_member_email",
+                        "type": "text",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "default_value": "",
+                        "placeholder": "e.g. teammember@company.com",
+                        "prepend": "",
+                        "append": "",
+                        "maxlength": "",
+                        "readonly": 0,
+                        "disabled": 0
+                    },
+                    {
+                        "key": "field_568105f54a5f8",
+                        "label": "Picture",
+                        "name": "group_of_companies_team_member_picture",
+                        "type": "image_crop",
+                        "instructions": "Add picture.",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "crop_type": "hard",
+                        "target_size": "medium",
+                        "width": "",
+                        "height": "",
+                        "preview_size": "medium",
+                        "force_crop": "yes",
+                        "save_in_media_library": "yes",
+                        "retina_mode": "no",
+                        "save_format": "url",
+                        "library": "all"
+                    }
+                ]
+            },
+            {
+                "key": "field_568105f540365",
+                "label": "Contact Info",
+                "name": "contact_info",
+                "type": "tab",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "placement": "top",
+                "endpoint": 0
+            },
+            {
+                "key": "field_568105f5403ff",
+                "label": "Contact Email",
+                "name": "group_of_companies_contact_email",
+                "type": "text",
+                "instructions": "Enter contact email address here. The emails sent from the contact form will be directed to this email.",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "e.g. info@company.com",
+                "prepend": "",
+                "append": "",
+                "maxlength": "",
+                "readonly": 0,
+                "disabled": 0
+            },
+            {
+                "key": "field_568105f540497",
+                "label": "Street Address",
+                "name": "group_of_companies_contact_street_address",
+                "type": "text",
+                "instructions": "Enter street address here.",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "e.g. Joukahaisenkatu 5 b",
+                "prepend": "",
+                "append": "",
+                "maxlength": "",
+                "readonly": 0,
+                "disabled": 0
+            },
+            {
+                "key": "field_568105f54052d",
+                "label": "City",
+                "name": "group_of_companies_contact_city",
+                "type": "text",
+                "instructions": "Enter city here.",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "e.g. Turku",
+                "prepend": "",
+                "append": "",
+                "maxlength": "",
+                "readonly": 0,
+                "disabled": 0
+            },
+            {
+                "key": "field_568105f5405c4",
+                "label": "Postal Code",
+                "name": "group_of_companies_contact_postal_code",
+                "type": "text",
+                "instructions": "Enter postal code here.",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "e.g. 20100",
+                "prepend": "",
+                "append": "",
+                "maxlength": "",
+                "readonly": 0,
+                "disabled": 0
+            },
+            {
+                "key": "field_568105f54065b",
+                "label": "Country",
+                "name": "group_of_companies_contact_country",
+                "type": "text",
+                "instructions": "Enter country",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "e.g. Finland",
+                "prepend": "",
+                "append": "",
+                "maxlength": "",
+                "readonly": 0,
+                "disabled": 0
+            },
+            {
+                "key": "field_568105f5406f2",
+                "label": "Phone Number",
+                "name": "group_of_companies_contact_phone_number",
+                "type": "text",
+                "instructions": "Enter phone number here.",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "e.g. +358 50 1234567",
+                "prepend": "",
+                "append": "",
+                "maxlength": "",
+                "readonly": 0,
+                "disabled": 0
+            },
+            {
+                "key": "field_56b1dce0b10c0",
+                "label": "Website Address",
+                "name": "group_of_companies_contact_url",
+                "type": "text",
+                "instructions": "Enter website address here.",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "e.g. www.domain.com",
+                "prepend": "",
+                "append": "",
+                "maxlength": "",
+                "readonly": 0,
+                "disabled": 0
+            },
+            {
+                "key": "field_568105f540788",
+                "label": "3D Elements",
+                "name": "",
+                "type": "tab",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "placement": "top",
+                "endpoint": 0
+            },
+            {
+                "key": "field_568105f54082d",
+                "label": "Sketchfab Elements",
+                "name": "group_of_companies_sketchfab_repeater",
+                "type": "repeater",
+                "instructions": "Add up to 10 Sketchfab elements here. Leave blank if you want to showcase some of the companies 3D elements.",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "collapsed": "",
+                "min": "",
+                "max": 10,
+                "layout": "row",
+                "button_label": "Add Sketchfab Element",
+                "sub_fields": [
+                    {
+                        "key": "field_568105f555e78",
+                        "label": "Sketchfab URL:",
+                        "name": "group_of_companies_sketchfab_url",
+                        "type": "text",
+                        "instructions": "Copy the URL from Sketchfab here.",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "default_value": "",
+                        "placeholder": "e.g. https:\/\/sketchfab.com\/models\/8b6f5dfb10f049b5ab9bb0b097e6df61",
+                        "prepend": "",
+                        "append": "",
+                        "maxlength": "",
+                        "readonly": 0,
+                        "disabled": 0
+                    },
+                    {
+                        "key": "field_568105f555f1c",
+                        "label": "Annotation Cycle:",
+                        "name": "group_of_companies_sketchfab_annotation_cycle",
+                        "type": "number",
+                        "instructions": "Setting to any number will start the Autopilot cycle with that duration, in seconds, at each annotation. Give a value between 0 and 20.",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": "company-sketchfab-annotation-cycle"
+                        },
+                        "default_value": 0,
+                        "placeholder": "",
+                        "prepend": "",
+                        "append": "",
+                        "min": 0,
+                        "max": 20,
+                        "step": 1,
+                        "readonly": 0,
+                        "disabled": 0
+                    },
+                    {
+                        "key": "field_568105f555fbf",
+                        "label": "Auto spin:",
+                        "name": "group_of_companies_sketchfab_auto_spin",
+                        "type": "number",
+                        "instructions": "Setting to any other number will cause the model to automatically spin around the z-axis after loading. The greater the number, the faster the spin. Give a value between 0 and 1",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": "company-sketchfab-autospin"
+                        },
+                        "default_value": 0,
+                        "placeholder": "",
+                        "prepend": "",
+                        "append": "",
+                        "min": 0,
+                        "max": 1,
+                        "step": "0.1",
+                        "readonly": 0,
+                        "disabled": 0
+                    }
+                ]
+            },
+            {
+                "key": "field_5706367e67818",
+                "label": "360 Photos",
+                "name": "_copy",
+                "type": "tab",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "placement": "top",
+                "endpoint": 0
+            },
+            {
+                "key": "field_5706368767819",
+                "label": "360 Photos",
+                "name": "group_of_companies_threesixty_photos_repeater",
+                "type": "repeater",
+                "instructions": "Add up to ten 360 photos",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "collapsed": "",
+                "min": "",
+                "max": 10,
+                "layout": "row",
+                "button_label": "Add 360 photo",
+                "sub_fields": [
+                    {
+                        "key": "field_570636876781a",
+                        "label": "360 Photo URL:",
+                        "name": "group_of_companies_threesixty_photo_url",
+                        "type": "text",
+                        "instructions": "Copy the URL from 360 Theta here.",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "default_value": "",
+                        "placeholder": "e.g. https:\/\/theta360.com\/s\/jOKIHhvxGpBYaanca03Brz1iS",
+                        "prepend": "",
+                        "append": "",
+                        "maxlength": "",
+                        "readonly": 0,
+                        "disabled": 0
+                    }
+                ]
+            },
+            {
+                "key": "field_568105f5408c3",
+                "label": "Youtube Videos",
+                "name": "_copy",
+                "type": "tab",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "placement": "top",
+                "endpoint": 0
+            },
+            {
+                "key": "field_568105f54095a",
+                "label": "Youtube Videos",
+                "name": "group_of_companies_youtube_repeater",
+                "type": "repeater",
+                "instructions": "Add up to 10 Youtube videos.",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "collapsed": "",
+                "min": "",
+                "max": 10,
+                "layout": "row",
+                "button_label": "Add Youtube Video",
+                "sub_fields": [
+                    {
+                        "key": "field_568105f55b630",
+                        "label": "Youtube Video URL",
+                        "name": "group_of_companies_youtube_url",
+                        "type": "text",
+                        "instructions": "Enter Youtube video URL",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "default_value": "",
+                        "placeholder": "e.g. https:\/\/www.youtube.com\/watch?v=5vWLx8kwbwE",
+                        "prepend": "",
+                        "append": "",
+                        "maxlength": "",
+                        "readonly": 0,
+                        "disabled": 0
+                    }
+                ]
+            },
+            {
+                "key": "field_568105f5409ef",
+                "label": "Pictures & PDF",
+                "name": "",
+                "type": "tab",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "placement": "top",
+                "endpoint": 0
+            },
+            {
+                "key": "field_568105f540a8b",
+                "label": "Pictures & PDF",
+                "name": "group_of_companies_pictures_and_pdf",
+                "type": "gallery",
+                "instructions": "Add pictures or pdf.",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "min": "",
+                "max": "",
+                "preview_size": "thumbnail",
+                "library": "all",
+                "min_width": "",
+                "min_height": "",
+                "min_size": "",
+                "max_width": "",
+                "max_height": "",
+                "max_size": "",
+                "mime_types": "jpg,jpef,png,svg,gif,bmp,pdf"
+            }
+        ],
+        "location": [
+            [
+                {
+                    "param": "post_type",
+                    "operator": "==",
+                    "value": "group_of_companies"
+                }
+            ]
+        ],
+        "menu_order": 0,
+        "position": "normal",
+        "style": "default",
+        "label_placement": "top",
+        "instruction_placement": "label",
+        "hide_on_screen": [
+            "permalink",
+            "slug"
+        ],
+        "active": 1,
+        "description": ""
+    },
+    {
+        "key": "group_56f3946deed32",
+        "title": "Group of Companies styling",
+        "fields": [
+            {
+                "key": "field_56fe2d7dfc5da",
+                "label": "Header Section",
+                "name": "",
+                "type": "tab",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "placement": "top",
+                "endpoint": 0
+            },
+            {
+                "key": "field_56f394738f157",
+                "label": "Background Color",
+                "name": "header_background_color",
+                "type": "color_picker",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "#000000"
+            },
+            {
+                "key": "field_56fe484a773c3",
+                "label": "Header Text Color",
+                "name": "header_text_color",
+                "type": "color_picker",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "#F5F5DC"
+            },
+            {
+                "key": "field_56fe5f03a8257",
+                "label": "Slogan Text Color",
+                "name": "slogan_text_color",
+                "type": "color_picker",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "#F5F5DC"
+            },
+            {
+                "key": "field_56fe2d94fc5db",
+                "label": "Information Section",
+                "name": "",
+                "type": "tab",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "placement": "top",
+                "endpoint": 0
+            },
+            {
+                "key": "field_56f394fe0fa5b",
+                "label": "Background Color",
+                "name": "information_background_color",
+                "type": "color_picker",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "#FFFFFF"
+            },
+            {
+                "key": "field_56fe66307ef74",
+                "label": "Text Color",
+                "name": "information_text_color",
+                "type": "color_picker",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "#000000"
+            },
+            {
+                "key": "field_56fe66d17ef77",
+                "label": "About Us Underline Color",
+                "name": "information_about_us_underline_color",
+                "type": "color_picker",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "#9ACD32"
+            },
+            {
+                "key": "field_56fe66627ef75",
+                "label": "Our Business Underline Color",
+                "name": "information_our_business_underline_color",
+                "type": "color_picker",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "#FF4500"
+            },
+            {
+                "key": "field_56fe668a7ef76",
+                "label": "Mission Underline Color",
+                "name": "information_mission_underline_color",
+                "type": "color_picker",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "#4682B4"
+            },
+            {
+                "key": "field_56fe2ed7c1b11",
+                "label": "Companies Section",
+                "name": "_copy",
+                "type": "tab",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "placement": "top",
+                "endpoint": 0
+            },
+            {
+                "key": "field_56fe2ee5197f3",
+                "label": "Background Color",
+                "name": "companies_background_color",
+                "type": "color_picker",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "#000000"
+            },
+            {
+                "key": "field_5728836f9a90b",
+                "label": "Text Color",
+                "name": "companies_text_color",
+                "type": "color_picker",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "#FFFFFF"
+            },
+            {
+                "key": "field_56fe2f06197f5",
+                "label": "Our Team Section",
+                "name": "_copy",
+                "type": "tab",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "placement": "top",
+                "endpoint": 0
+            },
+            {
+                "key": "field_56fe2f3a197f8",
+                "label": "Background Color",
+                "name": "our_team_background_color",
+                "type": "color_picker",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": ""
+            },
+            {
+                "key": "field_5728948a32580",
+                "label": "Text Color",
+                "name": "our_team_text_color",
+                "type": "color_picker",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "#FFFFFF"
+            },
+            {
+                "key": "field_56fe2da1a8d33",
+                "label": "Contact Us Section",
+                "name": "",
+                "type": "tab",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "placement": "top",
+                "endpoint": 0
+            },
+            {
+                "key": "field_56f3952a0fa5c",
+                "label": "Background Color",
+                "name": "contact_background_color",
+                "type": "color_picker",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "#2D2D2D"
+            },
+            {
+                "key": "field_572894ef32581",
+                "label": "Text Color",
+                "name": "contact_text_color",
+                "type": "color_picker",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "#FFFFFF"
+            },
+            {
+                "key": "field_56fe2f17197f6",
+                "label": "Material Section",
+                "name": "_copy",
+                "type": "tab",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "placement": "top",
+                "endpoint": 0
+            },
+            {
+                "key": "field_56fe2f7e197fb",
+                "label": "Background Color",
+                "name": "material_background_color",
+                "type": "color_picker",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "#FFFFFF"
+            },
+            {
+                "key": "field_5728950332582",
+                "label": "Text Color",
+                "name": "material_text_color",
+                "type": "color_picker",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "#000000"
+            },
+            {
+                "key": "field_56fe2f2f197f7",
+                "label": "Footer Section",
+                "name": "_copy",
+                "type": "tab",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "placement": "top",
+                "endpoint": 0
+            },
+            {
+                "key": "field_56fe2f67197fa",
+                "label": "Background Color",
+                "name": "footer_background_color",
+                "type": "color_picker",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "#000000"
+            },
+            {
+                "key": "field_57289b9fb41f9",
+                "label": "Home Bar Background Color",
+                "name": "footer_home_bar_background_color",
+                "type": "color_picker",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "#2D2D2D"
+            }
+        ],
+        "location": [
+            [
+                {
+                    "param": "post_type",
+                    "operator": "==",
+                    "value": "group_of_companies"
+                }
+            ]
+        ],
+        "menu_order": 0,
+        "position": "normal",
+        "style": "default",
+        "label_placement": "top",
+        "instruction_placement": "label",
+        "hide_on_screen": "",
+        "active": 1,
+        "description": ""
+    }
+]

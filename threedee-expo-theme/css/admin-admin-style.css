@@ -1,0 +1,74 @@
+span#footer-thankyou,
+p#footer-upgrade,
+#slugdiv {
+	display: none;
+}
+
+#company-sketchfab-annotation-cycle input,
+#company-sketchfab-autospin input {
+	width: 50px;
+	vertical-align: middle;
+}
+
+.item-card {
+	display:inline-table;
+	box-shadow: 0 1px 5px #000000;
+	width: 195px;
+	margin: 3px;
+	border: 1px solid #000000;
+}
+
+.item-card:hover {
+	box-shadow: 0px 0px 5px 5px rgba(139, 141, 142, 1);
+}
+
+.item-card-thumbnail{
+}
+
+.item-card-image {
+	width: 100%;
+	height: 150px;
+}
+
+.item-card-title{
+	padding: 15px 5px 15px 5px;
+}
+
+.item-title {
+	height: 30px;
+	width: 100%;
+	text-align: center;
+	display: block;
+	font-family: 'Lato', sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	text-transform: uppercase;
+	color: #555;
+}
+
+.company-select-link {
+	z-index:999;
+	text-decoration: none;
+}
+
+a.company-select-link:focus {
+	-webkit-box-shadow: 0 0 0 0 white;
+	-moz-box-shadow: 0 0 0 0 white;
+	box-shadow: 0 0 0 0 white;
+	text-decoration: none;
+}
+
+input.company-checkbox {
+	display: none!important;
+}
+
+i.fa.fa-check.item-card-check-mark {
+	font-size: 50px;
+	position: absolute;
+	color: #00FD38;
+	background-color: rgba(255, 255, 255, 0.35);
+}
+
+i.fa.fa-check.item-card-check-mark.not-checked {
+	display: none;
+}
